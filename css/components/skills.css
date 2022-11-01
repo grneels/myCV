@@ -1,0 +1,107 @@
+#skills {
+   background-color: #b8b8b8;
+}
+
+.chart {
+   width: 100%;
+}
+
+.chart p:first-child {
+   margin-bottom: 50px;
+   font-weight: 600;
+}
+
+.chart .pipe {
+   background: rgb(165, 160, 160);
+}
+
+.chart .pipe {
+   width: 100%;
+   height: 10px;
+   border-radius: 5px;
+   margin-bottom: 1.2em;
+}
+
+.chart p {
+   margin: 0 0 5px
+}
+
+.chart .pipe div {
+   background: black;
+   border-radius: 5px;
+   height: 10px;
+}
+
+
+/*key*/
+
+
+@media (max-width: 1199px) {
+   .img {
+      width: 350px;
+      height: 350px;
+   }
+}
+
+@media (max-width: 991px) {
+   .img {
+      width: 300px;
+      height: 300px;
+   }
+
+   .chart .pipe {
+      width: 100%;
+      height: 7px;
+   }
+   
+   .chart p {
+      font-size: 12px;
+   }
+   
+   .chart .pipe > div {
+      border-radius: 5px;
+      height: 7px;
+   }
+}
+
+@media (max-width: 767px) {
+   .img {
+      width: 250px;
+      height: 250px;
+   }
+
+   .chart p {
+      text-align: center;
+      margin: 0px;
+   }
+
+   .chart p:first-child {
+      margin-bottom: 30px;
+   }
+}
+
+@media (max-width: 527px) {
+   .img {
+      display: block;
+      margin: auto;
+      width: 300px;
+      height: 300px;
+   }
+
+   #skills .col-6 {
+      width: 100%;
+   }
+
+   .chart {
+      display: block;
+      margin: 20px auto 0px;
+      width: 80%;
+   }
+}
+
+@media (max-width: 477px) {
+   .img {
+      width: 270px;
+      height: 270px;
+   }
+}

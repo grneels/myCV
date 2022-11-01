@@ -1,0 +1,74 @@
+/* #about */
+.about p:last-child {
+   margin-top: 20px;
+}
+
+/* #portfolio */
+.portfolio a {
+   font-size: 24px;
+   color: black;
+   text-decoration: none;
+   transition: all 0.09s ease-out;
+}
+
+.portfolio a:hover {
+   color: rgb(165, 160, 160);
+}
+
+/* #footer */
+#footer {
+   background-color: #b8b8b8;
+}
+
+.footer p {
+   text-align:center;
+   margin: 20px 0px;
+   font-size: 17px;
+}
+
+.telegram, .hh {
+   display:block;
+   text-align:center;
+   margin: 20px 0px;
+   font-size: 24px;
+   color: black;
+   text-decoration: none;
+   transition: all 0.09s ease-out;
+}
+
+.telegram:hover, .hh:hover {
+   color: rgb(165, 160, 160);
+}
+
+.icon-telegram {
+   font-size: 15px;  
+}
+
+.icon-head_hunter-_1 {
+   font-size: 12px;  
+}
+
+
+@media (max-width: 991px) {
+   .portfolio a {
+      font-size: 20px;
+   }
+
+   .telegram, .hh {
+      font-size: 18px;
+   }
+
+   .icon-telegram, .icon-head_hunter-_1 {
+      display: none;
+   }
+}
+
+@media (max-width: 527px) {
+   .portfolio a {
+      font-size: 18px;
+   }
+
+   .telegram, .hh {
+      font-size: 14px;
+   }
+}

@@ -1,0 +1,76 @@
+@import url(../libs/bootstrap5/bootstrap-reboot.min.css);
+@import url(../libs/bootstrap5/bootstrap-grid.min.css);
+@import url(../fonts/icomoon/style.css);
+@import url(../css/components/bootstrap-skins.css);
+@import url(components/navbar.css);
+@import url(components/header.css);
+@import url(components/skills.css);
+@import url(components/other.css);
+
+
+body {
+   font-family: 'Libre Franklin', sans-serif;
+}
+
+section {
+   padding-bottom: 50px;
+}
+
+h5 {
+   font-size: 25px;
+   margin: 0px;
+   padding: 50px 0px;
+}
+
+p {
+   text-align: justify;
+}
+
+@media (max-width: 991px) {
+   .section {
+      padding-bottom: 30px;
+   }
+
+   h5 {
+      font-size: 21px;
+      padding: 30px 0px;
+   }
+
+   p {
+      font-size: 13px;
+   }
+}
+
+@media (max-width: 527px) {
+   h5 {
+      text-align: center;
+   }
+}
+
+@media (max-width: 477px) {
+   h5 {
+      font-size: 15px;
+   }
+
+   p {
+      font-size: 12px;
+   }
+}
+
+
+
+/*@media screen and (max-width: 991px) {
+   /* стили для больших планшетов - начало 
+   
+   }
+   
+   @media screen and (max-width: 767px) {
+   /* стили для средних планшетов - начало 
+   
+   }
+   
+   @media screen and (max-width: 479px) {
+   /* стили для телефонов - начало 
+   
+   }
+ */
