@@ -48,8 +48,9 @@ p {
 }
 
 @media (max-width: 477px) {
-   body {
-      overflow-x:hidden;
+   .row {
+      margin-right: -15px;
+      margin-left: 15px;
    }
    h5 {
       font-size: 15px;
