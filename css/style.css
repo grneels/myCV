@@ -48,7 +48,7 @@ p {
 }
 
 @media (max-width: 477px) {
-   .container {
+   .row {
       margin-left: 0px
    }
    
