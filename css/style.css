@@ -49,7 +49,7 @@ p {
 
 @media (max-width: 477px) {
    .row {
-      margin-right: -15px;
+      margin: auto;
    }
    h5 {
       font-size: 15px;
