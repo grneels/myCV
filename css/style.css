@@ -47,7 +47,10 @@ p {
    }
 }
 
-@media (max-width: 477px) {   
+@media (max-width: 477px) {
+   body {
+      overflow-x:hidden;
+   }
    h5 {
       font-size: 15px;
    }
