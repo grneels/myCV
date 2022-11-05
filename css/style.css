@@ -47,11 +47,7 @@ p {
    }
 }
 
-@media (max-width: 477px) {
-   .row {
-      margin-right: 0px
-   }
-   
+@media (max-width: 477px) {   
    h5 {
       font-size: 15px;
    }
