@@ -50,7 +50,6 @@ p {
 @media (max-width: 477px) {
    .row {
       margin-right: -15px;
-      margin-left: 15px;
    }
    h5 {
       font-size: 15px;
