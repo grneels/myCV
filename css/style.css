@@ -1,7 +1,6 @@
 @import url(../libs/bootstrap5/bootstrap-reboot.min.css);
 @import url(../libs/bootstrap5/bootstrap-grid.min.css);
 @import url(../fonts/icomoon/style.css);
-@import url(../css/components/bootstrap-skins.css);
 @import url(components/navbar.css);
 @import url(components/header.css);
 @import url(components/skills.css);
@@ -51,6 +50,7 @@ p {
    .row {
       margin: auto;
    }
+
    h5 {
       font-size: 15px;
    }
@@ -59,6 +59,5 @@ p {
       font-size: 12px;
    }
 }
-
 
 
